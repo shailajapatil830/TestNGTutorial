@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+       <parameter name="URL" value="QAclickAcamadamy"/>
+
+
+  <test  name="personal Loan">
+        <parameter name="URL" value="personalLoan.com"/>
+        <parameter name="APIKey/username" value="678910"/>  //we can add more than one parameters value//
+     <classes>
+	      <class name="Test.BasicDay1">
+	          <methods>
+	             <include name="demo"/>
+	           </methods>
+	      </class>      
+	      <class name= "Test.BasicDay2"/>          
+    </classes>
+  </test>
+  
+   <test name = "Car Loan">
+      <classes>      
+        <class name = "Test.BasicDay3"/>
+         
+        <class name = "Test.BasicDay4"/>
+        
+      </classes>
+  </test>
+</suite> 

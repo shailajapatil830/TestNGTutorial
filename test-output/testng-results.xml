@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-11-06T11:34:46Z" name="Loan Department" finished-at="2018-11-06T11:34:47Z" duration-ms="119">
+    <groups>
+      <group name="Smoke">
+        <method signature="BasicDay2.PersonalLoan()[pri:0, instance:Test.BasicDay2@424e1977]" name="PersonalLoan" class="Test.BasicDay2"/>
+        <method signature="BasicDay3.LoginAPIcarloan()[pri:0, instance:Test.BasicDay3@36b4fe2a]" name="LoginAPIcarloan" class="Test.BasicDay3"/>
+        <method signature="BasicDay4.MobileloginHomeloan()[pri:0, instance:Test.BasicDay4@574b560f]" name="MobileloginHomeloan" class="Test.BasicDay4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2018-11-06T11:34:46Z" name="personal Loan" finished-at="2018-11-06T11:34:46Z" duration-ms="45">
+      <class name="Test.BasicDay2">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:Test.BasicDay2@424e1977]" started-at="2018-11-06T11:34:46Z" name="prerequiste" finished-at="2018-11-06T11:34:46Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method signature="PersonalLoan()[pri:0, instance:Test.BasicDay2@424e1977]" started-at="2018-11-06T11:34:46Z" name="PersonalLoan" finished-at="2018-11-06T11:34:46Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PersonalLoan -->
+      </class> <!-- Test.BasicDay2 -->
+      <class name="Test.BasicDay1">
+        <test-method signature="demo(java.lang.String, java.lang.String)[pri:0, instance:Test.BasicDay1@117e949d]" started-at="2018-11-06T11:34:46Z" name="demo" finished-at="2018-11-06T11:34:46Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalLoan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[678910]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:Test.BasicDay1@117e949d]" started-at="2018-11-06T11:34:46Z" name="lastexecution" finished-at="2018-11-06T11:34:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- Test.BasicDay1 -->
+    </test> <!-- personal Loan -->
+    <test started-at="2018-11-06T11:34:47Z" name="Car Loan" finished-at="2018-11-06T11:34:47Z" duration-ms="16">
+      <class name="Test.BasicDay4">
+        <test-method signature="LoginAPIHomeloan()[pri:0, instance:Test.BasicDay4@574b560f]" started-at="2018-11-06T11:34:47Z" name="LoginAPIHomeloan" finished-at="2018-11-06T11:34:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeloan -->
+        <test-method signature="MobileloginHomeloan()[pri:0, instance:Test.BasicDay4@574b560f]" started-at="2018-11-06T11:34:47Z" name="MobileloginHomeloan" finished-at="2018-11-06T11:34:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginHomeloan -->
+        <test-method signature="WebloginHomeloan()[pri:0, instance:Test.BasicDay4@574b560f]" started-at="2018-11-06T11:34:47Z" name="WebloginHomeloan" finished-at="2018-11-06T11:34:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeloan -->
+      </class> <!-- Test.BasicDay4 -->
+      <class name="Test.BasicDay3">
+        <test-method is-config="true" signature="BforeClass()[pri:0, instance:Test.BasicDay3@36b4fe2a]" started-at="2018-11-06T11:34:47Z" name="BforeClass" finished-at="2018-11-06T11:34:47Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BforeClass -->
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Test.BasicDay3@36b4fe2a]" started-at="2018-11-06T11:34:47Z" name="BeforeSuite" finished-at="2018-11-06T11:34:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method signature="LoginAPIcarloan()[pri:0, instance:Test.BasicDay3@36b4fe2a]" started-at="2018-11-06T11:34:47Z" name="LoginAPIcarloan" finished-at="2018-11-06T11:34:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIcarloan -->
+        <test-method is-config="true" signature="BeforeSuite()[pri:0, instance:Test.BasicDay3@36b4fe2a]" started-at="2018-11-06T11:34:47Z" name="BeforeSuite" finished-at="2018-11-06T11:34:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite -->
+        <test-method signature="WebloginCarloan(java.lang.String)[pri:0, instance:Test.BasicDay3@36b4fe2a]" started-at="2018-11-06T11:34:47Z" name="WebloginCarloan" finished-at="2018-11-06T11:34:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QAclickAcamadamy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarloan -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:Test.BasicDay3@36b4fe2a]" started-at="2018-11-06T11:34:47Z" name="AfterClass" finished-at="2018-11-06T11:34:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- Test.BasicDay3 -->
+      <class name="Test.BasicDay1">
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:Test.BasicDay1@117e949d]" started-at="2018-11-06T11:34:47Z" name="Aftersuite" finished-at="2018-11-06T11:34:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftersuite -->
+      </class> <!-- Test.BasicDay1 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

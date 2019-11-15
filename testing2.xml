@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Loan Department">
+  <test  name="Regression">
+        <groups>
+           <run>
+               <include name = "Smoke"/>  //you can use exclude as well if u want run all the test cases except smoke//
+           </run>
+        </groups>
+     <classes>
+	      <class name="Test.BasicDay1"/>
+	      <class name= "Test.BasicDay2"/> 
+	      <class name= "Test.BasicDay3"/>
+	      <class name= "Test.BasicDay4"/>         
+    </classes>
+  </test>
+  
+</suite> 
